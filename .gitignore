@@ -1,0 +1,75 @@
+# Build products
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+bin/
+obj/
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.dSYM/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Editors, operating systems, and temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Local datasets and generated benchmark artifacts
+datasets/
+old_results/
+past_results/
+reproduced_results/
+*.png
+*.pdf
+summary_table.csv
+
+# Private research notes and AI-assisted working material
+*prompt*.md
+session*.md
+methodology.md
+notes/
+scratch/
+.codex/
+.claude/
+.cursor/
+
+# GPU/CUDA/HIP implementation and results are outside this CPU artifact
+gpu/
+cuda/
+src/gpu/
+src/cuda/
+scripts/gpu/
+scripts/cuda/
+gpu_results/
+results_gpu/
+results_cuda/
+*.cu
+*.cuh
+*.ptx
+*.cubin
+*.fatbin
+*.hip
+*.hsaco
